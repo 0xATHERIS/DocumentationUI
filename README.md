@@ -1,3 +1,3 @@
 # Documentation UI
 
-## Component library for creating documentation pages.
+### Component library for creating documentation pages.
