@@ -1,0 +1,8 @@
+{
+    "simpleCommit.scopes": [
+        "component",
+        "Article",
+        "Title",
+        "Subtitle"
+    ]
+}
