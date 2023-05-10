@@ -3,10 +3,11 @@ import { Article, Subtitle, Title } from '../components';
 
 export default function Documentation() {
   return (
-    <main className="border">
+    <main>
         <Article>
             <Title>Documentation UI</Title>
-            <Subtitle>Test</Subtitle>
+            <Subtitle>Component library for creating documentation pages.</Subtitle>
+            <p>nfiofhsd fiof wejfbj fwefnwekf w efkwnef;jkwef  sfewjbfiweh f fkewjfbwekf wfb wekjf ew</p>
         </Article>
     </main>
   )
