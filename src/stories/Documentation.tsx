@@ -1,14 +1,12 @@
 import React from 'react';
-import Article from '../components/Article';
+import { Article, Title } from '../components';
 
-function Documentation() {
+export default function Documentation() {
   return (
     <main className="border">
         <Article>
-            <h1>Test</h1>
+            <Title>Documentation UI</Title>
         </Article>
     </main>
   )
-}
-
-export default Documentation
+};
