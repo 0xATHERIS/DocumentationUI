@@ -7,7 +7,7 @@ type TextProps = {
 };
 
 const Text = React.forwardRef<HTMLParagraphElement, TextProps>(({ children, className, ...props }, ref) => (
-    <p ref={ref} className={cn("mb-4 text-base font-normal leading-relaxed text-neutral-800 dark:text-neutral-100", className)} {...props}>
+    <p ref={ref} className={cn("mb-2 text-base font-normal leading-relaxed text-neutral-800 dark:text-neutral-100", className)} {...props}>
         {children}
     </p>
 ));
