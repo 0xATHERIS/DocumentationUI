@@ -1,13 +1,19 @@
 import React from 'react';
-import { Article, Subtitle, Title } from '../components';
+import { Article, Code, Link, Subtitle, Text, Title, SectionTitle } from '../components';
 
 export default function Documentation() {
   return (
-    <main>
+    <main className="h-screen m-0 dark:bg-neutral-800">
         <Article>
             <Title>Documentation UI</Title>
             <Subtitle>Component library for creating documentation pages.</Subtitle>
-            <p>nfiofhsd fiof wejfbj fwefnwekf w efkwnef;jkwef  sfewjbfiweh f fkewjfbwekf wfb wekjf ew</p>
+            <SectionTitle>Basic button</SectionTitle>
+            <Text>The <Code>Button</Code> comes with three variants: text (default), contained, and outlined.</Text>
+            <SectionTitle>Basic button</SectionTitle>
+            <Text>This is a long text using the Text component. This is just a random sentence to test out the length of a body of Text.</Text>
+            <Text>This is a long text using the Text component. This is just a random sentence to test out the length of a body of Text.</Text>
+            <SectionTitle>Text button</SectionTitle>
+            <Text><Link>Text buttons</Link> are typically used for less-pronounced actions, including those located: in dialogs, in cards. In cards, text buttons help maintain an emphasis on card content.</Text>
         </Article>
     </main>
   )
