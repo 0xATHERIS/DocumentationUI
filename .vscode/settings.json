@@ -3,6 +3,11 @@
         "component",
         "Article",
         "Title",
-        "Subtitle"
+        "Subtitle",
+        "Code",
+        "Link",
+        "SectionTitle",
+        "Text",
+        "icons"
     ]
 }
